@@ -1,3 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +18,70 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container{
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav{
+  background-color: #11113d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title{
+  font-size: 2rem;
+}
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+nav li.active{
+  background-color: #6b6b84;
+}
+
+nav li.hover{
+  background-color: #777;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.carrosel{
+  position: relative;
+  left: 100px
+
+}
+
+.carousel-container {
+  max-width: 750px;
+}
+
+.footer {
+  color: white;
+  background-color: #333;
+  padding-top: none;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
