@@ -11,7 +11,7 @@ const Footer=() => {
 
           <div className="sb_footer_links_div">
             <h2>E-MAIL</h2>
-            <a href={`mailto:INSERIR_EMAIL@EMAIL.com`}> <p> <h2>INSERIR EMAIL</h2> </p> </a>
+            <a href={`mailto:pedroeapereira@gmail.com`}> <p> <h2>pedroeapereira@gmail.com</h2> </p> </a>
           </div>
 
           <div className="sb_footer_links_div">

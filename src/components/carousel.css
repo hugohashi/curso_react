@@ -1,0 +1,18 @@
+.div {
+  width: 100%;
+  max-width: 600px; /* Adjust the width as per your design */
+  margin: 0 0;
+  margin-left: 320px; /* Add this line to shift it to the left */
+}
+
+.swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}

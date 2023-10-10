@@ -1,5 +1,12 @@
+import StickyButton from "./StickyButton";
+import "./text_style.css";
+
 function Home(){
     return(
+        <>
+
+        <StickyButton/>
+        
         <p className="text">
             Com mais de 30 anos de experiência, Pedro Pereira, empreiteiro e construtor, e sua equipa oferecem uma vasta gama de serviços de remodelação e acabamentos para projetos residenciais e comerciais.
             <br></br><br></br>
@@ -13,11 +20,17 @@ function Home(){
             O compromisso com a satisfação total dos clientes e o orgulho no trabalho bem feito sempre foram as nossas marcas registadas. Cada projeto é abordado com seriedade, compromisso, eficiência e atenção aos detalhes.
             <br></br><br></br>
 
-            Se procura uma equipa experiente e de confiança para levar a cabo os seus projetos de remodelação e acabamentos com os mais altos padrões de qualidade, conte connosco. Orçamentos grátis!
+            Se procura uma equipa experiente e de confiança para levar a cabo os seus projetos de remodelação e acabamentos com os mais altos padrões de qualidade, conte connosco.
+            <br></br><br></br>
+
+            <p className="orc_gratis"> <b>Orçamentos grátis!</b></p>
+
             <br></br><br></br>
             <br></br><br></br>
 
         </p>
+
+        </>
     )
 };
 

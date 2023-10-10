@@ -1,5 +1,12 @@
+import StickyButton from "./StickyButton";
+import "./text_style.css";
+
 function Services(){
     return(
+        <>
+
+        <StickyButton/>
+        
         <p className="text">
             Oferecemos uma ampla gama de serviços de remodelação e acabamentos para projetos residenciais e comerciais. Com mais de 30 anos de experiência no setor, garantimos trabalho de qualidade superior.
             <br></br><br></br>
@@ -24,8 +31,7 @@ function Services(){
                 </li>
                 <br></br><br></br>
 
-                <li> <strong>Pladur</strong> 
-                 - Construção de paredes, tetos falsos e outros trabalhos em pladur.
+                <li> <strong>Pladur</strong> - Construção de paredes, tetos falsos e outros trabalhos em pladur.
                 </li>
                 <br></br><br></br>
 
@@ -39,13 +45,16 @@ function Services(){
                  </li>
 
             </ul>
-                 <br></br><br></br>
-                
-            Consulte-nos para um <strong><u>orçamento sem compromisso.</u></strong> Estamos disponíveis para projetos de qualquer dimensão.
+            
+            <br></br>
+            <p className="orc_gratis">Consulte-nos para um <strong><u>orçamento sem compromisso.</u></strong> Estamos disponíveis para projetos de qualquer dimensão.</p>
+
             <br></br><br></br>
             <br></br><br></br>
 
         </p>
+
+        </>
     )
 };
 

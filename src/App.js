@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import ContactForm from "./components/ContactForm";
 
 function App(){
     return(
@@ -15,6 +16,7 @@ function App(){
               <Route path="/Home" element={<Home/>}/>
               <Route path="/Services" element={<Services/>}/>
               <Route path="/Projects" element={<Projects/>}/>
+              <Route path="/ContactForm" element={<ContactForm/>}/>
             </Routes>
           </div>
           <div>

@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import logo from "./pedro_pereira_construcoes.png"
+import logo from "./imagens/pedro_pereira_construcoes.png"
 import "./header.css";
 
 function Header(){
@@ -15,7 +15,6 @@ function Header(){
   return (
     <nav className="nav">
       <Link className="site-title" to="/Home">
-        {/* Pedro Pereira Construções */}
         <img className="logo" src={logo} alt="Logo"/>
       </Link>
 
