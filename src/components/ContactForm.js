@@ -11,8 +11,6 @@ const ContactForm = () => {
     const sendMessage = (event) => {
         event.preventDefault();
 
-        alert("Mensagem Enviada! Assim que possível entraremos em contacto.")
-
         window.Email.send({
             Host : "smtp.elasticemail.com",
             Username : "",
